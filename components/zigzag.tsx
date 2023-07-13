@@ -6,7 +6,7 @@ import FeatImage03 from '@/public/images/feature3.svg'
 
 export default function Zigzag() {
   return (
-    <section>
+    <section id='features'>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
 
