@@ -22,10 +22,10 @@ export default function Hero() {
         </div>
 
         {/* Hero content */}
-        <div className="relative pt-32 pb-20 md:pt-15 md:pb-16">
+        <div className="relative pt-32 md:pt-15">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center">
           <Image className="h1 mb-4 mx-auto text-center sm:w-auto sm:mb-0" src={PyCoder_Icon}  data-aos="fade-up" alt="Testimonial 01" />
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Coding Made Simplier</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
