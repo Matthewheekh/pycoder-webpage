@@ -22,7 +22,7 @@ export default function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; PyCoder.com. All rights reserved.</div>
+            <div className="text-gray-400 text-sm mr-4">&copy; pycoder.vercel.app. All rights reserved.</div>
 
           </div>
 
