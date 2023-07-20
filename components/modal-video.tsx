@@ -30,7 +30,7 @@ export default function ModalVideo({
   return (
     <div>
 
-      {/* Video thumbnail */}
+      {/* Video thumbnail
       <div>
         <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
           <Image src={thumb} width={thumbWidth} height={thumbHeight} alt={thumbAlt} />
@@ -47,7 +47,7 @@ export default function ModalVideo({
             </svg>
           </button>
         </div>
-      </div>
+      </div> */}
       {/* End: Video thumbnail */}
 
       <Transition show={modalOpen} as={Fragment} afterEnter={() => videoRef.current?.play()}>
